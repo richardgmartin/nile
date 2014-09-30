@@ -1,28 +1,19 @@
-== README
+This is a training app based on the bitmaker rainforest student app. I plan to use this app as an exercise to 'fine tune' my Rails skills.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The app emulates amazon.com. It allows the user to post product information and the visitor to provide 'product reviews' on specific products.
 
-Things you may want to cover:
+Besides implementing Rails logic, I would like to use the app to experiment with the following:
 
-* Ruby version
+* bootstrap framework
+* publishing the final app on heroku
+* publishing using capistrano
+* migrating sqlite to postgres database
+* AJAX
+* some JavaScript and Jquery
+* some APIs: facebook login; intercom API for tracking
+* seo friendly
+* creating a blog inside the main app
+* measurable: analytics, conversion tracking, etc
+* test JS frameworks: angular, ember, backbone, and/or reveal
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+If these are too ambitious, I may break up the project and tackle the items above separately.
