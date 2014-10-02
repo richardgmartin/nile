@@ -1,0 +1,8 @@
+<h1>The Movie </h1>
+
+<% @products.each do |product| %>
+  <h3><%= product[:name] %></h3>
+  <br><%= product[:description] %></br>
+  <br><%= product[:price_in_cents] %></br>
+  <br><%= product[:url] %></br>
+<% end %>
